@@ -1,5 +1,7 @@
-body {
-    background-image: url(./takashi-watanabe-f2DL8oI-7N8-unsplash.jpg);
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One);
+
+body {    
+    background-image: url(img/marco-chilese-4RbiFpgsDq0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -8,8 +10,32 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    color: ivory;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-family: "Fredoka One";
+    color: white;
+}
+
+.container {
+
+    display: flex;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -2rem;
+
+}
+
+.number {
+    margin: 0 2rem;
+    font-size: 6rem;
+}
+
+.container-number {
+
+    text-align: center;
+    margin-top: 3rem;
+
 }
 
