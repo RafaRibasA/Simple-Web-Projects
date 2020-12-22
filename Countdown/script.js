@@ -4,7 +4,11 @@ const minEl = document.getElementById("minutes");
 const secEl = document.getElementById("second");
 
 
-const newYears = "1 Jan 2021"
+//let dataEl = document.getElementById('data').value;
+
+//let newYears = document.getElementById('data').value;
+
+const newYears = "1 Jan 2021";
 
 function countdown () {
 
@@ -24,8 +28,22 @@ function countdown () {
     daysEl.innerHTML = days;
     hoursEl.innerHTML = hours;
     minEl.innerHTML = min;
-    secEl.innerHTML = sec;
+    secEl.innerHTML = format(sec);
     
+}
+
+function refresh () {
+    
+    let dataEl = document.getElementById('data').value;
+
+    newYears = dataEl;
+
+    console.log(newYears);
+
+}
+
+function format (time) {
+    return time < 10 ? (`0${time}`) : time;
 }
 
 countdown();

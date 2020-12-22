@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Monoton);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue);
 
-@import url(https://fonts.googleapis.com/css2?family=Raleway);
 
 body {    
-    background-image: url(img/marco-chilese-4RbiFpgsDq0-unsplash.jpg);
+    background-image: url(img/img1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -12,7 +11,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    font-family: "Monoton";
+    font-family: "Bebas Neue";
     color: white;
 }
 
@@ -22,22 +21,51 @@ body {
 
 h1 {
     font-weight: normal;
-    font-size: 4rem;
-    margin-top: 5rem;
-    font-weight: bold;    
+    font-size: 6rem;
+    margin-top: -4rem;
+    font-weight: bold; 
+    letter-spacing: 0.3rem;   
 }
 
 .number {
-    margin: 0 2rem;
+    margin: 0 3rem;
     font-size: 6rem;
 }
 
 .container-number {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: -1.5rem;
 }
 
 span {
     font-size: 1.6rem;
 }
 
+.instruction {
+    margin-top: -1rem;
+    font-size: 2rem;
+}
+
+#data {
+    border-radius: 0.35rem;
+    border-color: none;
+    height: 35px;
+    width: 180px;
+    border-style: none;
+    align-items: center;
+}
+
+button {
+    border-style: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 40px;
+}
+
+form {
+    align-items: center;
+}
+
+#title {
+    margin-top: -8rem;
+}
