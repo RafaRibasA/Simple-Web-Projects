@@ -69,3 +69,9 @@ form {
 #title {
     margin-top: -8rem;
 }
+
+.setDate {
+    display: flex;
+    margin-right: 80rem;
+    margin-top: -8rem;
+}

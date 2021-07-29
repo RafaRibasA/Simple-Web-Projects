@@ -10,18 +10,38 @@
     </head>
     <body>
 
-        <h1 id="title">This is a Countdown Page</h1>
 
-        <div class="mid-container">
+        <h1>Time until the date</h1>
 
-            <p class="instruction">Please enter a date:</p>
+        <div class="container">
 
-            <form action="/Countdown/timer.html"> 
+            <div class="container-number">
 
-                <input id="data" type="text" placeholder="1 Jan 2021">
-                <button onclick="refresh()" type="submit">ok</button>
-                
-            </form>
+                <p class="number" id="days">0</p>
+                <span>Days</span>
+
+            </div>
+            
+            <div class="container-number">
+
+                <p class="number" id="hours">0</p>
+                <span>Hours</span>
+
+            </div>
+
+            <div class="container-number">
+
+                <p class="number" id="minutes">0</p>
+                <span>Min</span>
+
+            </div>
+            
+            <div class="container-number" >
+
+                <p class="number" id="second">0</p>
+                <span>Sec</span>
+
+            </div>
         </div>
 
     </body>

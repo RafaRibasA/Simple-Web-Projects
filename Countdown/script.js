@@ -8,8 +8,10 @@ const secEl = document.getElementById("second");
 
 //let newYears = document.getElementById('data').value;
 
-const newYears = "1 Jan 2021";
+let newYears = "1 Jan 2022";
 
+
+//function to calculate the time until the date and format it.
 function countdown () {
 
     const newYearsDate = new Date(newYears);
@@ -32,15 +34,6 @@ function countdown () {
     
 }
 
-function refresh () {
-    
-    let dataEl = document.getElementById('data').value;
-
-    newYears = dataEl;
-
-    console.log(newYears);
-
-}
 
 function format (time) {
     return time < 10 ? (`0${time}`) : time;
