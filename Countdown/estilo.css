@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+
+body {    
+    background-image: url(img/back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins";
+    color: white;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 4rem;
+    word-spacing: 8px;
+    letter-spacing: 10px;
+}
+
+#sub-title {
+    font-style: italic;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    letter-spacing: 10px;
+}

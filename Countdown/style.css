@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue);
-
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 
 body {    
-    background-image: url(img/img1.jpg);
-    background-size: cover;
+    background-image: url(img/back.jpg);
+    background-size: auto;
     background-position: center;
     display: flex;
     flex-direction: column;
