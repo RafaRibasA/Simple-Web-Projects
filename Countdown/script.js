@@ -4,15 +4,16 @@ const minEl = document.getElementById("minutes");
 const secEl = document.getElementById("second");
 
 
-//let dataEl = document.getElementById('data').value;
+let newYears = "01 Jan 2022";
 
-//let newYears = document.getElementById('data').value;
-
-let newYears = "1 Jan 2022";
 
 
 //function to calculate the time until the date and format it.
 function countdown () {
+
+    //var input = document.querySelector("#day") + " " + document.querySelector("#month") + " " + document.querySelector("#year");
+
+    //newYears = input.value;
 
     const newYearsDate = new Date(newYears);
     const realDate = new Date();

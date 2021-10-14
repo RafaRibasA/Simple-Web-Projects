@@ -18,7 +18,7 @@ p {
 .titulo {
 
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 6.5rem;
 }
 
 #title {
@@ -66,23 +66,52 @@ p {
 
 .setDate {
 
-    padding-top: 3rem;
-    font-size: 1.2rem;
+    display: flex;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
 
 }
 
 input {
-
 
     background-color: transparent;
     border: 0;
     border-bottom: 2px solid white;
     padding-top: 10px;
     border-radius: 2px;
-    width: 50px;
+    outline: none;
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 0.5rem;
+}
+
+input::placeholder {
+    color: snow;
 }
 
 .setItems {
     letter-spacing: 5px;
-    
+
+}
+
+#choose {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+#day {
+    width: 40px;
+}
+
+#month {
+    width: 65px;
+}
+
+#year {
+    width: 65px;
 }
